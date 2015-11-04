@@ -1,3 +1,3 @@
 # TsWspCompilation
 
-Adds TypeScript compilation support to website projects.
+Visual Studio 2015 Extension that adds TypeScript compilation support to website projects.
