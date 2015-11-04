@@ -245,12 +245,20 @@
     <VSCTCompile Include="TsWspPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
     </VSCTCompile>
+    <Content Include="favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="index.html" />
     <None Include="ItemTemplates\TypeScript\TsWSP\Definitions\CSharp.vstemplate" />
     <None Include="ItemTemplates\TypeScript\TsWSP\Definitions\VB.vstemplate" />
     <None Include="ItemTemplates\TypeScript\TsWSP\Definitions\Web.csharp.vstemplate" />
     <None Include="ItemTemplates\TypeScript\TsWSP\Definitions\Web.VB.vstemplate" />
     <None Include="ItemTemplates\TypeScript\TsWSP\TSSource.ico" />
+    <Content Include="license.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Resources\TscCommand.png" />
     <Content Include="Resources\TsWspPackage.ico" />
     <Content Include="stylesheet.css" />

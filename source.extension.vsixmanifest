@@ -4,6 +4,8 @@
     <Identity Id="2e64a53b-9b88-49da-b7ce-1174266b093d" Version="1.0" Language="en-US" Publisher="Knarfalingus.com" />
     <DisplayName>TsWspCompilation</DisplayName>
     <Description>Adds TypeScript compilation support to website projects.</Description>
+    <License>license.txt</License>
+    <Icon>favicon.ico</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
