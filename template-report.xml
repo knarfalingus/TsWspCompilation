@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates>
+    <ItemTemplate Path="ItemTemplates\TypeScript\TsWSP\Definitions\CSharp.vstemplate" Name="TypeScript File" Description="TypeScript File (TsWsp)" ProjectType="CSharp" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\TypeScript\TsWSP\Definitions\VB.vstemplate" Name="TypeScript File" Description="TypeScript File (TsWsp)" ProjectType="VisualBasic" ProjectSubType="" />
+    <ItemTemplate Path="ItemTemplates\TypeScript\TsWSP\Definitions\Web.csharp.vstemplate" Name="TypeScript File" Description="TypeScript File (TsWsp)" ProjectType="Web" ProjectSubType="CSharp" />
+    <ItemTemplate Path="ItemTemplates\TypeScript\TsWSP\Definitions\Web.VB.vstemplate" Name="TypeScript File" Description="TypeScript File (TsWsp)" ProjectType="Web" ProjectSubType="VisualBasic" />
+  </ItemTemplates>
+  <ProjectTemplates />
+  <Snippets />
+</TemplateReport>

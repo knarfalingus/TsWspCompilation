@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+	<TemplateData>
+		<ProjectType>CSharp</ProjectType>
+		<DefaultName>TypeScript.ts</DefaultName>
+		<Name>TypeScript File</Name>
+		<Description>TypeScript File (TsWsp)</Description>
+		<Icon>icon.png</Icon>
+		<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+		<TemplateID>70a7bfa9-eb6b-4e0e-9100-94a155b700d8</TemplateID>
+		<SortOrder>1000</SortOrder>
+	</TemplateData>
+	<TemplateContent>
+		<References />
+		<ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.ts">TypeScript.ts</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
