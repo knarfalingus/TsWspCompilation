@@ -6,4 +6,4 @@ Visual Studio 2015 Extension that adds TypeScript compilation support to website
 ![TsWsp Options](https://knarfalingus.github.io/Content/TsWspCompilation/TsWspOptions.png)
 
 
-![Studio Options](https://knarfalingus.github.io/Content/TsWspCompilation/VsOptions.png)
+![Studio Options](https://knarfalingus.github.io/Content/TsWspCompilation/VsOptions.PNG)
