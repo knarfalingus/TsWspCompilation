@@ -2,7 +2,7 @@
 
 Visual Studio 2015 Extension that adds TypeScript compilation support to website projects.
 
-This extension will compile a Javascript file you are editing in a Visual Studio Website project, when you save it.
+This extension will compile a TypeScript file  you are editing in a Visual Studio Website project to Javascript, when you save it.  It also adds TypeScript files as an option in the "new file" menus/dialogs in Visual Studio.
 
 ![TsWsp Options](https://knarfalingus.github.io/Content/TsWspCompilation/TsWspOptions.png)
 
