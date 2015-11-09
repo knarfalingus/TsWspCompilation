@@ -242,19 +242,8 @@ namespace TsWspCompilation
 
                 p.Start();
 
-                // reads the error output
-                // http://stackoverflow.com/questions/7160187/standardoutput-readtoend-hangs
-
-                while (p.StandardError.Peek() > -1)
-                {
-                    var msg = p.StandardError.ReadToEnd();
-
-                    // this actually will do nothing (TSC doesnt use stderr apparently)
-                    if (!string.IsNullOrWhiteSpace(msg))
-                        Logger.Log("tsc.exe error: " + msg);
-                }
-
                 // workaround....
+                // http://stackoverflow.com/questions/7160187/standardoutput-readtoend-hangs
                 while (p.StandardOutput.Peek() > -1)
                 {
                     var output = p.StandardOutput.ReadToEnd();

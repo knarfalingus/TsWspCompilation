@@ -80,6 +80,7 @@
     <None Include="Key.snk" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
+    <None Include="README.md" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
